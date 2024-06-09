@@ -25,7 +25,7 @@ This smart contract implements a simple token system with mint and burn function
 # Functions
 
 # mint
-```solidity
+solidity
 function mint(address _address, uint _val) public
 
 - Increases the total token supply by _val
@@ -37,4 +37,16 @@ function mint(address _address, uint _val) public
 - Deducts _val tokens from the balance of _address.
 - Ensures that _address has at least _val tokens before burning.
 
-# 
+# Deployment
+
+- Ensure you have Solidity 0.8.18 installed.
+- Compile the contract using a Solidity compiler.
+- Deploy the contract to your preferred Ethereum network.
+
+# Usage
+
+- Use the mint function to create new tokens and assign them to a specific address.
+- Use the burn function to destroy tokens from a specific address, ensuring the address has enough tokens to burn.
+
+# Project by
+Anshuman Roshan
