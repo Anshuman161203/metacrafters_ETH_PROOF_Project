@@ -49,4 +49,5 @@ function mint(address _address, uint _val) public
 - Use the burn function to destroy tokens from a specific address, ensuring the address has enough tokens to burn.
 
 # Project by
-Anshuman Roshan
+
+- Anshuman Roshan
